@@ -21,9 +21,9 @@ def get_crop_rect_for_default_pic_per(width: int, height: int) -> Tuple[int, int
 
     # 定数定義
     RECT_X_PER = 20.0 / 1334.0
-    RECT_Y_PER = 17.0 / 750.0
-    RECT_W_PER = 942.0 / 1334.0
-    RECT_H_PER = 715.0 / 750.0
+    RECT_Y_PER = 181.0 / 750.0
+    RECT_W_PER = 294.0 / 1334.0
+    RECT_H_PER = 550.0 / 750.0
 
     # ピクセルを計算するラムダ式
     func = lambda x, x_per: round(x * x_per)
